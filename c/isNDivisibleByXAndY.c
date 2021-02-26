@@ -1,0 +1,10 @@
+// Is n divisible by x and y?
+
+#include <stdbool.h>
+
+bool isDivisible(int n, int x, int y) {
+    if ((n % x == 0) && (n % y == 0))
+      return true;
+    else
+      return false;
+}
